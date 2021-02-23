@@ -90,7 +90,8 @@ def euler2quat(phi_1, Phi, phi_2, P=1):
     Converts Euler angles according to Bunge conventnion (ZXZ) to quaternions.
     Based on:
         https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19770024290.pdf
-
+        http://iopscience.iop.org/article/10.1088/0965-0393/23/8/083501
+        
     Parameters:
     ---
     phi_1: ndarray, the first Euler angle; defined between 0 and 2pi
